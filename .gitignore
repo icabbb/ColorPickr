@@ -1,0 +1,63 @@
+# Node modules y dependencias
+/node_modules
+/apps/*/node_modules
+/packages/*/node_modules
+
+# Archivos de salida de compilación
+/apps/*/build
+/apps/*/dist
+/packages/*/build
+/packages/*/dist
+/.turbo
+/out
+
+# Dependencias de paquetes
+/.pnp
+.pnp.js
+.pnp.cjs
+.pnp.data.json
+.pnp.loader.mjs
+
+# Archivos de configuración de herramientas
+/.eslintcache
+/.parcel-cache
+/.vscode
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/logs
+*.log
+
+# Caché de operación de yarn
+.yarn/cache
+
+# Archivos de lock de diferentes administradores de paquetes (puedes ajustar según el gestor que uses)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Directorios de configuración local de Turborepo
+.turbo
+
+# Archivos de configuración específicos de IDEs o entornos de desarrollo
+/.vscode/
+/.idea/
+/*.iml
+
+# Archivos y directorios generados por Tauri
+/apps/desktop/src-tauri/target
+/apps/desktop/src-tauri/runner
+/apps/desktop/src-tauri/src-tauri-config.json
+
+# Caches de compilación
+.cache/
